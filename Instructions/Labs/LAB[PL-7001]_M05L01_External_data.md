@@ -33,9 +33,11 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 ### Tarefa 1.1 Criar um site do SharePoint
 
-1. No [portal dos Criadores de Power Apps](https://make.powerapps.com), selecione o **Inicializador de aplicativos** no canto superior esquerdo da janela do navegador e escolha **OneDrive**.
+1. No [portal dos Criadores de Power Apps](https://make.powerapps.com), selecione o **Inicializador de aplicativos** no canto superior esquerdo da janela do navegador e escolha **SharePoint**.
 
-1. No SharePoint, selecione **+Criar site**.
+1. Se a caixa de diálogo pop-up **Bem-vindo à Página Inicial do SharePoint** for exibida, selecione **X** para fechá-la.
+
+1. No SharePoint, selecione **+ Criar site**.
 
 1. Escolha **Site de equipe**, selecione o modelo **Equipe padrão** e escolha **Usar modelo**.
 
@@ -44,6 +46,8 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 1. Selecione **Criar site**.
 
 1. Selecione **Concluir**.
+
+1. Se a caixa de diálogo pop-up **Iniciar a criação do site** for exibida, feche-a.
 
 ### Tarefa 1.2 Criar uma lista do SharePoint
 
@@ -55,7 +59,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Insira `Bookings` em **Nome** e escolha **Criar**.
 
-1. Selecione **+Adicionar coluna**, escolha **Texto** e selecione **Avançar**.
+1. Selecione **+ Adicionar coluna**, escolha **Texto** e selecione **Avançar**.
 
 1. No painel **Criar uma coluna**, insira ou selecione os seguintes valores:
 
@@ -64,7 +68,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Selecione **Salvar**.
 
-1. Selecione **+Adicionar coluna**, escolha **Texto** e selecione **Avançar**.
+1. Selecione **+ Adicionar coluna**, escolha **Texto** e selecione **Avançar**.
 
 1. No painel **Criar uma coluna**, insira ou selecione os seguintes valores:
 
@@ -141,7 +145,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Selecione **6 selecionados** ao lado de **Campos**
 
-1. Selecione **Decisão** para **Título**.
+1. Selecione **Nome do animal de estimação** para **Título**.
 
 1. Selecione **Data de Início** para **Subtítulo**.
 
@@ -151,7 +155,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Renomeie a galeria como `BookingList`.
 
-1. Defina as propriedades da galeria da seguinte maneira:
+1. Defina as propriedades da galeria na barra de fórmulas da seguinte maneira:
 
    1. X=`1000`
    1. Y=`80`
@@ -168,7 +172,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Selecione **NextArrow**.
 
-1. Defina a propriedade **OnSelect** de NextArrow como:
+1. Defina a propriedade **OnSelect** de NextArrow na barra de fórmulas como:
 
     ```powerappsfl
     Collect(colRequests, ThisItem)
@@ -178,7 +182,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Selecione o objeto **App**.
 
-1. Defina a propriedade **OnStart** de NextArrow como:
+1. Defina a propriedade **OnStart** na barra de fórmulas como:
 
     ```powerappsfl
     Clear(colRequests)
@@ -204,7 +208,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
     ![Uma captura de tela de como editar a galeria.](../media/icon-added-gallery.png)
 
-1. Defina as propriedades do ícone da seguinte maneira:
+1. Defina as propriedades do ícone na barra de fórmulas da seguinte maneira:
 
    1. X=`150`
    1. Y=`40`
@@ -215,7 +219,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Renomeie o ícone como `DeclineIcon`.
 
-1. Defina a propriedade **OnSelect** de **DeclineIcon** como:
+1. Defina a propriedade **OnSelect** de **DeclineIcon** na barra de fórmulas como:
 
     ```powerappsfl
     Patch('Booking Requests', ThisItem, {Decision: 'Decision (Booking Requests)'.Declined})
@@ -247,7 +251,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Renomeie o rótulo como `UserDetailsLabel`.
 
-1. Defina a propriedade **OnSelect** de **UserDetailsLabel** para:
+1. Defina a propriedade **Texto** de **UserDetailsLabel** na barra de fórmulas como:
 
     ```powerappsfl
     Office365Users.MyProfile().Country
