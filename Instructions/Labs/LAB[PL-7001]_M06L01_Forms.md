@@ -37,9 +37,9 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 ### Tarefa 1.1 — Editar o aplicativo
 
-1. Navegue até o portal dos Criadores de Power Apps <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
 
-1. Verifique se você está no ambiente **Dev One**.
+1. Certifique-se de que você esteja no ambiente **Dev One**.
 
 1. Selecione a guia **Aplicativos** no menu esquerdo.
 
@@ -65,9 +65,11 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 ### Tarefa 1.3 — Adicionar a navegação
 
-1. Escolha **NextArrow** em **BookingRequestList** em **MainScreen**.
+1. No **modo de exibição de árvore**, expanda **BookingRequestList** na **MainScreen**.
 
-1. Defina a propriedade **OnSelect** de NextArrow como:
+1. Escolha **NextArrow** em **BookingRequestList**.
+
+1. Defina a propriedade **OnSelect** de NextArrow na barra de fórmulas como:
 
     ```powerappsfl
     Collect(colRequests, ThisItem);Navigate(DetailScreen, ScreenTransition.Cover);
@@ -90,6 +92,8 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 1. No **modo de exibição de árvore**, selecione o ícone e os Comandos (**…**) e escolha **Copiar**.
 
 1. Expanda **DetailScreen**.
+
+1. Expanda **ScreenContainer**.
 
 1. Selecione **HeaderContainer** e os Comandos (**…**) e escolha **Colar**.
 
@@ -148,7 +152,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. **Feche** o painel **Campos**.
 
-1. Defina a propriedade **Item** do controle de visualizador de formulários como:
+1. Defina a propriedade **Item** do controle de visualizador de formulários na barra de fórmulas como:
 
     ```powerappsfl
     BookingRequestList.Selected
@@ -259,14 +263,14 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
    1. X=`0`
    1. Y=`125`
-   1. Height=`500`
+   1. Altura=`500`
    1. Width=`Parent.Width`
    1. Columns=`1`
    1. Layout=`Horizontal`
 
     ![Captura de tela do formulário de solicitação de reserva configurado.](../media/bookingrequestform.png)
 
-### Tarefa 3.2 — Adicionar o botão Enviar
+### Tarefa 3.2 — Adicionar o botão de envio
 
 1. No menu de criação do aplicativo, selecione o **modo de exibição de árvore**.
 
@@ -348,7 +352,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
    1. X=`0`
    1. Y=`0`
-   1. Height=`80`
+   1. Altura=`80`
    1. Width=`80`
    1. Color=`Color.White`
 
@@ -360,4 +364,4 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
-1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e escolha **Sair** para sair do aplicativo.
+1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e selecione **Sair** para sair do aplicativo.
