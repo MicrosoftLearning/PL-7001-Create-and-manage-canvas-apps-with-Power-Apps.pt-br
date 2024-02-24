@@ -34,7 +34,7 @@ Neste laboratório, você vai gerenciar seu aplicativo de tela.
 
 1. Navegue até o portal dos Criadores de Power Apps <https://make.powerapps.com>.
 
-1. Verifique se você está no ambiente **Dev One**.
+1. Certifique-se de que você esteja no ambiente **Dev One**.
 
 1. Selecione a guia **Aplicativos** no menu esquerdo.
 
@@ -72,7 +72,7 @@ Neste laboratório, você vai gerenciar seu aplicativo de tela.
 
 1. Navegue até o portal dos Criadores de Power Apps <https://make.powerapps.com>.
 
-1. Verifique se você está no ambiente **Dev One**.
+1. Certifique-se de que você esteja no ambiente **Dev One**.
 
 1. Selecione a guia **Aplicativos** no menu esquerdo.
 
@@ -96,7 +96,7 @@ Neste laboratório, você vai gerenciar seu aplicativo de tela.
 
 1. Escolha o **aplicativo Solicitação de Reserva**, selecione os Comandos (**…**) e escolha **Editar > Editar em uma nova guia**.
 
-1. Selecione o cursor suspenso Selecionar ao lado de **Salvar** no canto superior direito do Power Apps Studio.
+1. Selecione o cursor suspenso ao lado de **Salvar** no canto superior direito do Power Apps Studio.
 
 1. Escolha **Baixar uma cópia**.
 

@@ -52,7 +52,7 @@ Neste laboratório, você alterará as cores dos controles no aplicativo.
 
 1. Selecione **NextArrow**.
 
-1. Defina a propriedade **Color** de NextArrow para:
+1. Defina a propriedade **Color** da NextArrow na barra de fórmulas como:
 
     ```powerappsfl
     RGBA(164, 38, 44, 1)
@@ -60,7 +60,7 @@ Neste laboratório, você alterará as cores dos controles no aplicativo.
 
 1. Selecione **Corpo**.
 
-1. Defina a propriedade **Color** de Corpo para:
+1. Defina a propriedade **Color** do corpo na barra de fórmulas como:
 
     ```powerappsfl
     If(ThisItem.Cost > 1000, RGBA(164, 38, 44, 1), Color.Black)
@@ -84,7 +84,7 @@ Neste laboratório, você alterará as cores dos controles no aplicativo.
 
 1. Renomeie o rótulo como `UserLabel`.
 
-1. Defina as propriedades do rótulo da seguinte maneira:
+1. Defina as propriedades do rótulo na barra de fórmulas da seguinte maneira:
 
    1. X=`1100`
    1. Y=`20`
