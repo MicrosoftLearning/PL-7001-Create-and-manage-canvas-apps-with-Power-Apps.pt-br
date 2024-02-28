@@ -21,7 +21,7 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
   
 ## Pré-requisitos
 
-- Deve ter concluído o **Laboratório 0: Validar o ambiente de laboratório**
+- Precisa ter concluído o **Laboratório 0: Validar o ambiente de laboratório**
 
 ## Etapas detalhadas
 
@@ -79,6 +79,8 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
     ![Captura de tela da tela de Procurar na tela em um aplicativo de três telas.](../media/three-screen-app-browse-screen.png)
 
+1. Se aparecer a caixa de diálogo pop-up **Boas-vindas ao Power Apps Studio**, selecione **Não mostrar isso novamente** e selecione **Ignorar**.
+
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio, insira `Coffee Machines App` e selecione **Salvar**.
 
 ### Tarefa 2.2 – Testar o aplicativo
@@ -89,7 +91,7 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
 1. Selecione o ícone **Editar** no canto superior direito do aplicativo. Isso abre a tela Editar.
 
-1. Altere o **Preço do computador** e selecione o ícone **Enviar** no canto superior direito do aplicativo.
+1. Altere o **Preço do computador** e selecione o ícone de confirmação **Enviar item** no canto superior direito do aplicativo.
 
 1. Selecione o ícone **<** no canto superior esquerdo do aplicativo.
 
@@ -101,15 +103,15 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
 1. Insira `999` em **Preço do computador**.
 
-1. Selecione o ícone **Enviar** no canto superior direito do aplicativo.
+1. Selecione o ícone **Enviar item** no canto superior direito do aplicativo.
 
 1. Insira `Demo` em **Itens de pesquisa**.
 
 1. Selecione **X** no canto superior direito para interromper a pré-visualização.
 
-1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e selecione **Sair** para sair do aplicativo.
+1. Caso apareça a caixa de diálogo pop-up **Você sabia?**, selecione **Não mostrar isso novamente** e depois **Ok**.
 
-1. Selecione a guia **+ Criar** no menu esquerdo do portal do criador do Power Apps.
+1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e escolha **Sair** para sair do aplicativo.
 
 ## Exercício 3 – Criar um aplicativo de tela com o Copilot
 
@@ -135,7 +137,7 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
     ![Captura de tela do aplicativo por copiloto.](../media/copilot-app.png)
 
-1. Selecione **Salvar** no canto superior direito do Power Apps Studio, insira `Coffee Repair App` e selecione **Salvar**.
+1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
 1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e selecione **Sair** para sair do aplicativo.
 

@@ -22,7 +22,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
   
 ## Pré-requisitos
 
-- Deve ter concluído o **Laboratório 2: Modelo de dados**
+- É necessário ter concluído **Laboratório 2: Modelo de dados**
 
 ## Etapas detalhadas
 
@@ -70,7 +70,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. No menu de criação do aplicativo, selecione o **Modo de exibição de árvore**.
 
-1. Selecione **Tela1** no modo de exibição de árvore, selecione as reticências (**...**) e selecione **Renomear**.
+1. Escolha **Tela1** no modo de exibição de árvore, selecione as reticências (**...**) e depois **Renomear**.
 
 1. Digite `MainScreen`.
 
@@ -84,7 +84,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Renomeie o retângulo como `HeaderRect`.
 
-1. Defina as propriedades do retângulo da seguinte maneira:
+1. Defina as propriedades do retângulo na barra de fórmulas da seguinte maneira:
 
    1. X=`0`
    1. Y=`0`
@@ -101,7 +101,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Renomeie o rótulo como `HeaderLabel`.
 
-1. Defina as propriedades do rótulo da seguinte maneira:
+1. Defina as propriedades do rótulo na barra de fórmulas da seguinte maneira:
 
    1. X=`0`
    1. Y=`0`
@@ -124,7 +124,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
     ![Captura de tela da adição de uma galeria.](../media/add-gallery.png)
 
-1. Selecione **Solicitações de reserva**.
+1. Selecione **Solicitações de Reserva** como a fonte de dados.
 
     ![Captura de tela das propriedades da galeria.](../media/gallery-properties.png)
 
@@ -146,7 +146,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Renomeie a galeria como `BookingRequestList`.
 
-1. Defina as propriedades da galeria da seguinte maneira:
+1. Defina as propriedades da galeria na barra de fórmulas da seguinte maneira:
 
    1. X=`0`
    1. Y=`80`
@@ -163,7 +163,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
     ![Captura de tela do campo do corpo selecionado.](../media/body.png)
 
-1. Defina a propriedade **Texto** como a fórmula:
+1. Na barra de fórmulas, defina a propriedade **Texto** para a seguinte fórmula:
 
     ```powerappsfl
     Text(Value(ThisItem.Cost), "$#,##0.00")
