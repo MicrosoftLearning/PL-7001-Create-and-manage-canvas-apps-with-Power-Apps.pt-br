@@ -33,11 +33,11 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 ### Tarefa 1.1 Criar um site do SharePoint
 
-1. No [portal dos Criadores de Power Apps](https://make.powerapps.com), selecione o **Inicializador de aplicativos** no canto superior esquerdo da janela do navegador e escolha **SharePoint**.
+1. No portal dos criadores de Power Apps, `https://make.powerapps.com`, selecione o **Inicializador de aplicativos** no canto superior esquerdo da janela do navegador e selecione **SharePoint**.
 
-1. Se a caixa de diálogo pop-up **Bem-vindo à Página Inicial do SharePoint** for exibida, selecione **X** para fechá-la.
+1. Se a caixa de diálogo pop-up **Bem-vindo(a) à Página Inicial do SharePoint** for exibida, selecione **✖** para fechá-la.
 
-1. No SharePoint, selecione **+ Criar site**.
+1. No SharePoint, selecione **+ Criar site**.
 
 1. Escolha **Site de equipe**, selecione o modelo **Equipe padrão** e escolha **Usar modelo**.
 
@@ -47,7 +47,8 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Selecione **Concluir**.
 
-1. Se a caixa de diálogo pop-up **Iniciar a criação do site** for exibida, feche-a.
+1. Se a caixa de diálogo pop-up **Comece a projetar seu site** for exibida, feche-a.
+
 
 ### Tarefa 1.2 Criar uma lista do SharePoint
 
@@ -97,17 +98,19 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Copie a primeira parte da URL do site do SharePoint, por exemplo, `https://m365x99999999.sharepoint.com/sites/Petboarding/`
 
+
 ## Exercício 2 – Adicionar lista do SharePoint ao aplicativo de tela
 
 ### Tarefa 2.1 — Editar o aplicativo
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **Aplicativos** no menu esquerdo.
+1. Selecione a guia **Aplicativos** no menu de navegação à esquerda.
 
 1. Escolha o **aplicativo Solicitação de Reserva**, selecione os Comandos (**…**) e escolha **Editar > Editar em uma nova guia**.
+
 
 ### Tarefa 2.2 – Adicionar o SharePoint como uma fonte de dados
 
@@ -121,7 +124,7 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Selecione **Conectar diretamente (serviços de nuvem)** e selecione **Conectar**.
 
-1. Insira a URL do site do SharePoint criado anteriormente neste laboratório
+1. Insira a URL do site do SharePoint criado anteriormente neste laboratório.
 
     ![Captura de tela da conexão com o site do SharePoint.](../media/select-sharepoint-site.png)
 
@@ -145,11 +148,11 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Selecione **6 selecionados** ao lado de **Campos**
 
-1. Selecione **Nome do animal de estimação** para **Título**.
+1. Selecione **Nome do animal de estimação** para **Título3**.
 
-1. Selecione **Data de Início** para **Subtítulo**.
+1. Selecione **Data de Início** para **Subtítulo3**.
 
-1. Feche o painel Dados.
+1. Feche o painel **Dados**.
 
 1. No menu de criação do aplicativo, selecione o **Modo de exibição de árvore**.
 
@@ -206,14 +209,14 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Escolha **Bloqueado**. O ícone será adicionado a cada linha na galeria.
 
-    ![Uma captura de tela de como editar a galeria.](../media/icon-added-gallery.png)
-
 1. Defina as propriedades do ícone na barra de fórmulas da seguinte maneira:
 
    1. X=`150`
    1. Y=`40`
    1. Altura=`30`
    1. Largura=`30`
+
+    ![Uma captura de tela de como editar a galeria.](../media/icon-added-gallery.png)
 
 1. No menu de criação do aplicativo, selecione o **Modo de exibição de árvore**.
 
@@ -237,9 +240,10 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Selecione **Conectar**.
 
+
 ### Tarefa 5.2 Exibir o país do usuário
 
-1. Clique fora da galeria na tela em branco.
+1. Selecione fora da galeria na tela em branco ou selecione a **Tela principal** no **Modo de exibição de árvore**.
 
 1. No menu de criação do aplicativo, selecione **Inserir (+)**.
 
@@ -257,6 +261,14 @@ Neste laboratório, você adicionará uma fonte de dados externa.
     Office365Users.MyProfile().Country
     ```
 
+1. Defina as propriedades do rótulo na barra de fórmulas da seguinte maneira:
+
+   1. X=`930`
+   1. Y=`20`
+   1. Tamanho=`18`
+   1. Cor=`Color.White`
+
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
 1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e selecione **Sair** para sair do aplicativo.
+

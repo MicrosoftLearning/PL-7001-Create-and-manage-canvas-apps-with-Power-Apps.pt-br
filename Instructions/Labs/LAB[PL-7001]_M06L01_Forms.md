@@ -37,13 +37,14 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 ### Tarefa 1.1 — Editar o aplicativo
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **Aplicativos** no menu esquerdo.
+1. Selecione a guia **Aplicativos** no menu de navegação à esquerda.
 
 1. Escolha o **aplicativo Solicitação de Reserva**, selecione os Comandos (**…**) e escolha **Editar > Editar em uma nova guia**.
+
 
 ### Tarefa 1.2 — Adicionar telas
 
@@ -62,6 +63,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 1. Selecione **Cabeçalho e rodapé**.
 
 1. Renomeie a tela como `DetailScreen`.
+
 
 ### Tarefa 1.3 — Adicionar a navegação
 
@@ -96,6 +98,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 1. Expanda **ScreenContainer**.
 
 1. Selecione **HeaderContainer** e os Comandos (**…**) e escolha **Colar**.
+
 
 ## Exercício 2 — Tela Detalhes
 
@@ -270,6 +273,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
     ![Captura de tela do formulário de solicitação de reserva configurado.](../media/bookingrequestform.png)
 
+
 ### Tarefa 3.2 — Adicionar o botão de envio
 
 1. No menu de criação do aplicativo, selecione o **modo de exibição de árvore**.
@@ -365,3 +369,4 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
 1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e selecione **Sair** para sair do aplicativo.
+
