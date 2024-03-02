@@ -21,7 +21,7 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
   
 ## Pré-requisitos
 
-- Deve ter concluído o **Laboratório 0: Validar o ambiente de laboratório**
+- Precisa ter concluído o **Laboratório 0: Validar o ambiente de laboratório**
 
 ## Etapas detalhadas
 
@@ -35,13 +35,13 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
-1. Selecione **+ Nova tabela**e selecione **Adicionar colunas e dados**.
+1. Selecione **+ Nova tabela** e selecione **Adicionar colunas e dados**.
 
     ![Captura de tela da criação de uma nova tabela no Dataverse.](../media/create-new-table-dataverse.png)
 
 1. Selecione o ícone de **lápis** ao lado de Nova tabela
 
-    ![Captura de tela do novo nome da tabela.](../media/table-name.png)
+    ![Captura de tela do nome da nova tabela.](../media/table-name.png)
 
 1. Para **Nome de exibição**, insira `Booking Request`.
 
@@ -71,7 +71,7 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Tipo de dados: **Linha única de texto**
    1. Obrigatório: **Empresa necessária**
 
-    ![Captura de tela do novo painel de colunas.](../media/new-column-pane.png)
+    ![Captura de tela do painel nova coluna.](../media/new-column-pane.png)
 
 1. Selecione **Salvar**.
 
@@ -117,6 +117,8 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Formato: **Text**
    1. Obrigatório: **Opcional**
 
+1. Selecione **Salvar**.
+
 ### Tarefa 1.4 – Adicionar coluna de escolha
 
 1. No painel **Colunas e dados de Solicitação de reserva**, selecione **+** e, no painel **Nova coluna**, insira ou selecione os seguintes valores:
@@ -129,7 +131,7 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 1. Insira `Undecided` para **Rótulo** e insira `1` para **Valor**.
 
-1. Selecione **+ Nova opção** e insira `Accepted` para **Rótulo** e insira `2` para **Valor**.
+1. Selecione **+ Nova escolha** e insira `Accepted` para **Rótulo** e insira `2` para **Valor**.
 
 1. Selecione **+ Nova opção** e insira `Declined` para **Rótulo** e insira `3` para **Valor**.
 
@@ -149,6 +151,8 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
+1. Selecione **Solicitação de Reserva**.
+
 1. No painel **Colunas e dados de Solicitação de reserva**, selecione **+** e, no painel **Nova coluna**, insira ou selecione os seguintes valores:
 
    1. Nome de exibição`Account`
@@ -159,3 +163,49 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
     ![Captura de tela do novo painel de colunas de pesquisa.](../media/new-lookup.png)
 
 1. Selecione **Salvar**.
+
+## Exercício 3 – Dados
+
+### Tarefa 3.1: adicionar registros de solicitação de reserva
+
+1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+
+1. Certifique-se de que você esteja no ambiente **Dev One**.
+
+1. No painel de navegação esquerdo, selecione **Tabelas**.
+
+1. Selecione **Solicitação de Reserva**.
+
+1. No painel **Colunas e dados de Solicitação de Reserva**, selecione o cursor suspenso ao lado de **Editar** e selecione **Editar na nova guia**.
+
+1. Insira ou selecione os valores a seguir:
+
+   1. Nome do Animal de Estimação: `Fido`
+   1. Nome do proprietário: `MOD Administrator`
+   1. Email do Tutor: Usar seu email de locatário
+   1. Data de início: **Amanhã**
+   1. Data de término: **Escolher uma data na próxima semana**
+   1. Custo: `1,000`
+   1. Decisão: **Aceita**
+
+1. Selecione **Inserir linha abaixo** e insira ou selecione os seguintes valores:
+
+   1. Nome do Animal de Estimação: `Tom`
+   1. Nome do proprietário: `MOD Administrator`
+   1. Email do Tutor: Usar seu email de locatário
+   1. Data de início: **Escolher uma data no próximo mês**
+   1. Data de término: **Escolher uma data após a data de início**
+   1. Custo: `1,500`
+   1. Decisão: **Não foi decidida**
+
+1. Selecione **Inserir linha abaixo** e insira ou selecione os seguintes valores:
+
+   1. Nome do Animal de Estimação: `Jim`
+   1. Nome do proprietário: `MOD Administrator`
+   1. Email do Tutor: Usar seu email de locatário
+   1. Data de início: **Escolher uma data futura no mês atual**
+   1. Data de término: **Escolher uma data após a data de início**
+   1. Custo: `250`
+   1. Decisão: **Recusada**
+
+1. Feche a guia editar dados.
