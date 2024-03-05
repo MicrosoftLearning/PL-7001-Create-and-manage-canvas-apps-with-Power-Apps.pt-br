@@ -32,11 +32,11 @@ Neste laboratório, você vai gerenciar seu aplicativo de tela.
 
 ### Tarefa 1.1: Compartilhar o aplicativo Solicitação de Reserva
 
-1. Navegue até o portal dos Criadores de Power Apps <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **Aplicativos** no menu esquerdo.
+1. Selecione a guia **Aplicativos** no menu de navegação esquerdo.
 
 1. Escolha o **aplicativo Solicitação de Reserva**, selecione os Comandos (**…**) e escolha **Compartilhar**.
 
@@ -49,6 +49,7 @@ Neste laboratório, você vai gerenciar seu aplicativo de tela.
 1. Selecione **Compartilhar**.
 
 1. **Feche** o painel Compartilhar do aplicativo.
+
 
 ### Tarefa 1.2: Publicar o aplicativo Solicitação de Reserva
 
@@ -66,33 +67,35 @@ Neste laboratório, você vai gerenciar seu aplicativo de tela.
 
 1. Escolha **Publicar esta versão** novamente.
 
+
 ## Exercício 2: Exportação
 
 ### Tarefa 2.1: Exportar o aplicativo Solicitação de Reserva
 
-1. Navegue até o portal dos Criadores de Power Apps <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **Aplicativos** no menu esquerdo.
+1. Selecione a guia **Aplicativos** no menu de navegação esquerdo.
 
 1. Escolha o **aplicativo Solicitação de Reserva**, selecione os Comandos (**…**) e escolha **Exportar pacote**.
 
-    ![Captura de tela da página Exportar do aplicativo.](../media/export-package.png)
-
-1. Insira `Booking Request app` em Nome
+1. Insira `Booking Request app` para **Nome**.
 
 1. Selecione **Atualizar** em **IMPORTAR CONFIGURAÇÃO**.
 
 1. Selecione **Criar como novo** e escolha **Salvar**.
 
+    ![Captura de tela da página Exportar do aplicativo.](../media/export-package.png)
+
 1. Selecione **Exportar**.
 
-1. Aguarde até que o pacote seja criado e baixado. Isso criará um arquivo zip na pasta Downloads.
+1. Aguarde até que o pacote seja criado e baixado. Isso cria um arquivo zip na pasta **Downloads**.
+
 
 ### Tarefa 2.2: Salvar o aplicativo localmente
 
-1. Selecione a guia **Aplicativos** no menu esquerdo.
+1. Selecione a guia **Aplicativos** no menu de navegação esquerdo.
 
 1. Escolha o **aplicativo Solicitação de Reserva**, selecione os Comandos (**…**) e escolha **Editar > Editar em uma nova guia**.
 
@@ -100,6 +103,7 @@ Neste laboratório, você vai gerenciar seu aplicativo de tela.
 
 1. Escolha **Baixar uma cópia**.
 
-1. Selecione **Baixar**.  Isso criará um arquivo msapp na pasta Downloads.
+1. Selecione **Baixar**.  Isso cria um arquivo .msapp na pasta **Downloads**.
 
 1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e escolha **Sair** para sair do aplicativo.
+

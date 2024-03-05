@@ -48,9 +48,9 @@ Neste laboratório, você alterará as cores dos controles no aplicativo.
 
 1. No menu de criação do aplicativo, selecione o **Modo de exibição de árvore**.
 
-1. Expanda a galeria.
+1. Expanda a galeria **BookingRequestList**.
 
-1. Selecione **NextArrow**.
+1. Selecione **NextArrow2**.
 
 1. Defina a propriedade **Color** da NextArrow na barra de fórmulas como:
 
@@ -58,7 +58,7 @@ Neste laboratório, você alterará as cores dos controles no aplicativo.
     RGBA(164, 38, 44, 1)
     ```
 
-1. Selecione **Corpo**.
+1. Selecione **Body1**.
 
 1. Defina a propriedade **Color** do corpo na barra de fórmulas como:
 
@@ -68,11 +68,12 @@ Neste laboratório, você alterará as cores dos controles no aplicativo.
 
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
+
 ## Exercício 2 – Personalização
 
 ### Tarefa 2.1 – Adicionar rótulo de usuário
 
-1. Clique fora da galeria na tela em branco.
+1. Selecione fora da galeria na tela em branco ou selecione **MainScreen**.
 
 1. No menu de criação do aplicativo, selecione **Inserir (+)**.
 

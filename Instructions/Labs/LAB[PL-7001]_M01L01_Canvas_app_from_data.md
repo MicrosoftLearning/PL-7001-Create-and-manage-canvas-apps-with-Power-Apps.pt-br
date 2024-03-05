@@ -41,7 +41,7 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
     ![Captura de tela do ícone do OneDrive.](../media/select-onedrive.png)
 
-1. Selecione **O seu OneDrive está pronto**.
+1. Se for apresentada uma janela pop-up, selecione **Seu OneDrive está pronto**.
 
 1. Selecione **+ Adicionar novo** e, em seguida, selecione **Carregar arquivos**
 
@@ -50,6 +50,7 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 1. Navegue até Downloads, selecione o arquivo CoffeeMachineData.xlsx e selecione **Abrir**.
 
 1. Selecione **Meus arquivos** e verifique se CoffeeMachineData.xlsx foi carregado.
+
 
 ## Exercício 2 – Criar um aplicativo de tela de três telas
 
@@ -75,13 +76,14 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
 1. Selecione **Conectar**.
 
+1. Se a caixa de diálogo pop-up **Bem-vindo(a) ao Power Apps Studio** for exibida, selecione **Não mostrar isso novamente** e **Ignorar**.
+
 1. Aguarde até que o aplicativo seja criado.
 
     ![Captura de tela da tela de Procurar na tela em um aplicativo de três telas.](../media/three-screen-app-browse-screen.png)
 
-1. Se aparecer a caixa de diálogo pop-up **Boas-vindas ao Power Apps Studio**, selecione **Não mostrar isso novamente** e selecione **Ignorar**.
-
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio, insira `Coffee Machines App` e selecione **Salvar**.
+
 
 ### Tarefa 2.2 – Testar o aplicativo
 
@@ -109,21 +111,22 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
 1. Selecione **X** no canto superior direito para interromper a pré-visualização.
 
-1. Caso apareça a caixa de diálogo pop-up **Você sabia?**, selecione **Não mostrar isso novamente** e depois **Ok**.
+1. Se for exibida a caixa de diálogo pop-up **Você sabia? **, selecione **Não mostrar isso novamente** e selecione **Ok**.
 
 1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e escolha **Sair** para sair do aplicativo.
+
 
 ## Exercício 3 – Criar um aplicativo de tela com o Copilot
 
 ### Tarefa 3.1 – Criar o aplicativo
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **Página Inicial** no menu esquerdo.
+1. Selecione a guia **Página Inicial** no menu de navegação à esquerda.
 
-1. Em **Vamos criar um aplicativo. O que ele deve fazer?**, insira `Track coffee machine repairs for customers and assign repairs to technicians` e selecione o ícone de seta.
+1. Em **Vamos criar um aplicativo. O que ele deve fazer?** insira `Track coffee machine repairs for customers and assign repairs to technicians` e selecione o ícone de seta **Ir** para enviar.
 
     ![Captura de tela de solicitação do copilot.](../media/copilot-prompt.png)
 

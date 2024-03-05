@@ -30,17 +30,17 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 ### Tarefa 1.1 – Criar o aplicativo
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **+ Criar** no menu esquerdo.
+1. Selecione a guia **+ Criar** no menu de navegação à esquerda.
 
 1. Selecione o bloco **Aplicativo em branco** em **Iniciar de**.
 
-    ![Captura de tela da criação em branco.](../media/create-from-blank.png)
-
 1. Selecione **Criar** no bloco **Aplicativo de tela em branco**.
+
+    ![Captura de tela da criação em branco.](../media/create-from-blank.png)
 
 1. Insira `Booking Request app` em **Nome do aplicativo**.
 
@@ -54,6 +54,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
+
 ### Tarefa 1.2 – Adicionar fonte de dados
 
 1. No menu de criação de aplicativo, selecione **Dados**.
@@ -65,6 +66,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
     ![Captura de tela da fonte de dados selecionada.](../media/studio-data-search.png)
 
 1. Selecione a tabela **Solicitações de reserva** do Microsoft Dataverse.
+
 
 ### Tarefa 1.3 – Configurar a tela principal
 
@@ -116,6 +118,7 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
+
 ### Tarefa 1.4 – Adicionar uma galeria
 
 1. No menu de criação do aplicativo, selecione **Inserir (+)**.
@@ -128,19 +131,19 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
     ![Captura de tela das propriedades da galeria.](../media/gallery-properties.png)
 
-1. Selecione **Título, subtítulo e corpo** para **Layout**.
+1. **Na guia Propriedades**, em **Layout**, selecione **Título, subtítulo e corpo**.
 
-1. Selecione **7 selecionados** ao lado de **Campos**
+1. Selecione **7 selecionados** ao lado de **Campos**.
 
-1. Selecione **Custo** para **Corpo**.
+1. Selecione **Custo** para **Corpo1**.
 
-1. Selecione **Decisão** para **Subtítulo**.
+1. Selecione **Decisão** para **Subtítulo2**.
 
-1. Selecione **Nome do animal de estimação** para **Título**.
+1. Selecione **Nome do animal de estimação** para **Título2**.
 
     ![Captura de tela dos campos da galeria.](../media/select-fields.png)
 
-1. Feche o painel Dados.
+1. Feche o painel **Dados**.
 
 1. No menu de criação do aplicativo, selecione o **Modo de exibição de árvore**.
 
@@ -153,13 +156,14 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
    1. Altura=`575`
    1. Largura=`250`
 
+
 ### Tarefa 1.5 – Formatar o campo de moeda
 
 1. No menu de criação do aplicativo, selecione o **Modo de exibição de árvore**.
 
-1. Expanda a galeria.
+1. Expanda a galeria **BookingRequestList**.
 
-1. Selecione o corpo.
+1. Selecione **Body1**.
 
     ![Captura de tela do campo do corpo selecionado.](../media/body.png)
 
@@ -172,3 +176,4 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
 1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e selecione **Sair** para sair do aplicativo.
+
