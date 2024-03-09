@@ -29,9 +29,9 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 ### Tarefa 1.1 – Criar a tabela Solicitação de reserva
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
@@ -39,7 +39,7 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
     ![Captura de tela da criação de uma nova tabela no Dataverse.](../media/create-new-table-dataverse.png)
 
-1. Selecione o ícone de **lápis** ao lado de Nova tabela
+1. Selecione o ícone de lápis **Editar propriedades da tabela** ao lado de **Nova tabela**.
 
     ![Captura de tela do nome da nova tabela.](../media/table-name.png)
 
@@ -145,9 +145,9 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
 
 ### Tarefa 2.1 – Criar uma coluna de pesquisa
 
-1. Navegue até o portal do Power Apps Maker <https://make.powerapps.com>.
+1. Navegue até o portal do Power Apps Maker `https://make.powerapps.com`
 
-1. Certifique-se de que você esteja no ambiente **Dev One**.
+1. Verifique se você está no ambiente **Dev One**.
 
 1. No painel de navegação esquerdo, selecione **Tabelas**.
 
@@ -209,3 +209,4 @@ Neste laboratório, você criará tabelas e colunas do Dataverse.
    1. Decisão: **Recusada**
 
 1. Feche a guia editar dados.
+
