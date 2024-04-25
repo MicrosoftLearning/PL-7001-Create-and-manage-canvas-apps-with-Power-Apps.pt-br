@@ -108,9 +108,9 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Expanda **DetailScreen**.
 
-1. Expanda **ScreenContainer**.
+1. Expanda **ScreenContainer1**.
 
-1. Selecione  **MainContainer**.
+1. Selecione **MainContainer1**.
 
 1. No menu de criação do aplicativo, selecione **Inserir (+)**.
 
@@ -167,9 +167,9 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Expanda **DetailScreen**.
 
-1. Expanda **ScreenContainer**.
+1. Expanda **ScreenContainer1**.
 
-1. Selecione **FooterContainer**.
+1. Selecione **FooterContainer1**.
 
 1. Selecione **+** dentro do contêiner Rodapé.
 
@@ -189,9 +189,9 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Expanda **DetailScreen**.
 
-1. Expanda **ScreenContainer**.
+1. Expanda **ScreenContainer1**.
 
-1. Selecione **FooterContainer**.
+1. Selecione **FooterContainer1**.
 
 1. No menu de criação do aplicativo, selecione **Inserir (+)**.
 
@@ -304,7 +304,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Selecione **BookingRequestForm**.
 
-1. Defina a propriedade **OnSuccess** do botão como:
+1. Defina a propriedade **OnSuccess** do formulário como:
 
     ```powerappsfl
     Navigate(MainScreen, ScreenTransition.UnCover)
