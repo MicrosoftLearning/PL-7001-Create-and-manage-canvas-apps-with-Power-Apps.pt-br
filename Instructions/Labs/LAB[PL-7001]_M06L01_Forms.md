@@ -122,21 +122,16 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Nas propriedades do FormViewer, selecione **Solicitações de Reserva** em **Fonte de dados**.
 
-1. Escolha **2 selecionados** ao lado de **Campos**.
+1. Clique em **8 selecionados** ao lado de **Campos**.
 
     ![Captura de tela dos campos de formulário padrão.](../media/add-fields-default.png)
 
-1. Remova **Criado em** selecionando as reticências (**…**) ao lado do campo e escolhendo **Remover**.
+1. Remova os campos **Status** e **Observações** clicando nas reticências (**...**) ao lado dos campos e clicando em **Remover**.
 
-1. Selecione **+ Adicionar campo** e escolha os seguintes campos:
+1. Clique em **+ Adicionar campo** e escolha o campo:
 
-   1. Custo
    1. Decisão
-   1. Data de término
-   1. Email do Proprietário
-   1. Nome do Proprietário
-   1. Data de Início
-
+   
     ![Captura de tela da adição de campos ao formulário.](../media/add-fields.png)
 
 1. Selecione **Adicionar**.
@@ -227,19 +222,9 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Nas propriedades do formulário, selecione **Solicitações de Reserva** em **Fonte de dados**.
 
-1. Escolha **2 selecionados** ao lado de **Campos**.
+1. Clique em **8 selecionados** ao lado de **Campos**.
 
-1. Remova **Criado em** selecionando as reticências (**…**) ao lado do campo e escolhendo **Remover**.
-
-1. Selecione **+ Adicionar campo** e escolha os seguintes campos:
-
-   1. Custo
-   1. Data de término
-   1. Email do Proprietário
-   1. Nome do Proprietário
-   1. Data de Início
-
-1. Selecione **Adicionar**.
+1. Remova os campos **Decisão** e **Observações** clicando nas reticências (**...**) ao lado dos campos e clicando em **Remover**.
 
 1. Arraste os campos para a seguinte ordem:
 

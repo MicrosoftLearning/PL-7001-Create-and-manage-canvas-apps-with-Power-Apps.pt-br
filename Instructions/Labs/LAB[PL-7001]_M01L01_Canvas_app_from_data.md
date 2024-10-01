@@ -126,15 +126,22 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
 1. Selecione a guia **Página Inicial** no menu de navegação à esquerda.
 
-1. Em **Vamos criar um aplicativo. O que ele deve fazer?** insira `Track coffee machine repairs for customers and assign repairs to technicians` e selecione o ícone de seta **Ir** para enviar.
+1. Em **Vamos criar um aplicativo. O que ele deve fazer?** insira `Assign coffee repairs to technicians per customer request` e selecione o ícone de seta **Ir** para enviar.
 
     ![Captura de tela de solicitação do copilot.](../media/copilot-prompt.png)
 
+    O Copilot começará a criar uma estrutura de tabela para dar suporte ao aplicativo.
+
+    > **IMPORTANTE:** Ao usar a IA gerativa, nem sempre você obterá os mesmos resultados exatos. É possível que sua tabela não corresponda exatamente à tabela criada para outro aluno. 
+
+    > Para ver a estrutura da tabela, escolha a tabela e clique no botão **Exibir dados** 
 1. Examinar a tabela
 
     ![Captura de tela da tabela de copiloto.](../media/copilot-table.png)
 
-1. Selecione **Criar aplicativo**
+1. Quando estiver contente com a tabela, clique no botão **Salvar e abrir aplicativo**. 
+
+1. Se necessário, na tela **Concluiu o trabalho?**, clique em **Não perguntar novamente** e clique no botão **Salvar e abrir aplicativo**. 
 
 1. Aguarde até que o aplicativo seja criado.
 
