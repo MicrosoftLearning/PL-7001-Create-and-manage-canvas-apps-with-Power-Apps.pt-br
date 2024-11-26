@@ -4,19 +4,19 @@
 
 ## O que estamos implementando?
 
-- Para oferecer suporte a este curso, precisaremos fazer atualizações frequentes no conteúdo para mantê-lo atualizado com os serviços da Power Platform.  Estamos publicando as instruções de laboratório e os arquivos de laboratório no GitHub para permitir contribuições abertas entre os autores do curso e os MCTs para manter o conteúdo atualizado com as alterações no Power Platform.
+- Para oferecer suporte a este curso, precisaremos fazer atualizações frequentes no conteúdo para mantê-lo atualizado com os serviços da Power Platform.  Estamos publicando as instruções e os arquivos de laboratório no GitHub para permitir contribuições abertas entre os autores do curso e os MCTs para manter o conteúdo atualizado com as alterações no Power Platform.
 
 - Esperamos que isso traga um senso de colaboração aos laboratórios como nunca tivemos antes. Quando houver uma mudança no Power Platform e você identificá-la primeiro em uma entrega ao vivo, vá em frente e faça um aprimoramento direto na fonte do laboratório. Ajude seus colegas MCTs.
 
-## Como devo usar esses arquivos em relação aos arquivos de treinamento liderados pelo instrutor do Microsoft Learn lançados?
+## Como devo usar esses arquivos em relação aos arquivos lançados do Treinamento com Instrutor do Microsoft Learn?
 
-- O guia de preparação do treinador e os slides do PowerPoint ainda serão a sua principal fonte para ensinar o conteúdo do curso.
+- O guia de preparação do Treinador e os slides do PowerPoint ainda serão a sua principal fonte para ensinar o conteúdo do curso.
 
 - Esses arquivos no GitHub foram projetados para serem usados em conjunto com os módulos do curso e do Learn, mas estão no GitHub como um repositório central para que os MCTs e autores do curso possam ter uma fonte compartilhada para os arquivos de laboratório, demonstrações e exercícios mais recentes.
 
 - Será recomendável que, para cada entrega, os treinadores verifiquem no GitHub se há alterações que possam ter sido feitas para dar suporte aos serviços mais recentes do Power Platform e obtenham os arquivos mais recentes para a entrega.
 
-## E as alterações no conteúdo do curso?
+## E quanto às alterações no conteúdo do curso?
 
 - O conteúdo do curso está no Microsoft Learn e pode ser atualizado fora do cronograma de lançamento do curso.
 
@@ -24,7 +24,7 @@
 
 - Qualquer MCT pode enviar uma solicitação para o código ou conteúdo no repositório do GitHub. A Microsoft e o autor do curso farão uma triagem e incluirão o conteúdo e as alterações do código do laboratório conforme necessário.
 
-- É possível enviar bugs, alterações, melhorias e ideias. Encontrou um novo recurso antes de nós? Envie uma nova demonstração!
+- É possível enviar bugs, alterações, melhorias e ideias. Encontrar um novo recurso antes de nós? Envie uma nova demonstração!
 
 ## Observações
 
