@@ -126,17 +126,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
     ![Captura de tela dos campos de formulário padrão.](../media/add-fields-default.png)
 
-1. Remova os campos **Status** e **Observações** clicando nas reticências (**...**) ao lado dos campos e clicando em **Remover**.
-
-1. Clique em **+ Adicionar campo** e escolha o campo:
-
-   1. Decisão
-   
-    ![Captura de tela da adição de campos ao formulário.](../media/add-fields.png)
-
-1. Selecione **Adicionar**.
-
-1. Arraste os campos para a seguinte ordem:
+1. Adicione ou remova os campos para que eles sejam organizados na seguinte ordem:
 
    1. Nome do Animal de Estimação
    1. Nome do Proprietário
@@ -224,9 +214,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Clique em **8 selecionados** ao lado de **Campos**.
 
-1. Remova os campos **Decisão** e **Observações** clicando nas reticências (**...**) ao lado dos campos e clicando em **Remover**.
-
-1. Arraste os campos para a seguinte ordem:
+1. Adicione ou remova os campos para que eles sejam organizados na seguinte ordem:
 
    1. Nome do Animal de Estimação
    1. Nome do Proprietário
