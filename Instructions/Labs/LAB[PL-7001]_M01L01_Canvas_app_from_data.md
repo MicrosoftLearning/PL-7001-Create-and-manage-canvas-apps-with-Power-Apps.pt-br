@@ -124,7 +124,10 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
 1. Verifique se você está no ambiente **Dev One**.
 
-1. Selecione a guia **Página Inicial** no menu de navegação à esquerda.
+1. Selecione a guia **Página Inicial** no menu de navegação à esquerda. 
+
+   > Se a opção **Experimentar a nova experiência do Power Apps** estiver habilitada, desative-a para que este laboratório funcione corretamente.
+   > Lançaremos novos laboratórios em breve com a experiência atualizada.
 
 1. Em **Vamos criar um aplicativo. O que ele deve fazer?** insira `Assign coffee repairs to technicians per customer request` e selecione o ícone de seta **Ir** para enviar.
 
