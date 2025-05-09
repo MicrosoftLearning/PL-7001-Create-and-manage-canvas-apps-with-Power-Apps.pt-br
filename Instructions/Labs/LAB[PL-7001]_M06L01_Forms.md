@@ -45,12 +45,11 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Escolha o **aplicativo Solicitação de Reserva**, selecione os Comandos (**…**) e escolha **Editar > Editar em uma nova guia**.
 
-
 ### Tarefa 1.2 — Adicionar telas
 
 1. No menu de criação do aplicativo, selecione o **modo de exibição de árvore**.
 
-1. Na barra de ações do Power Apps Studio, escolha **Nova tela**.
+1. Na parte superior do Modo de exibição de árvore, selecione **+ Nova tela**.
 
     ![Captura da nova tela.](../media/add-screen.png)
 
@@ -58,12 +57,11 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Renomeie a tela como `EditScreen`.
 
-1. Na barra de ações do Power Apps Studio, escolha **Nova tela**.
+1. Na parte superior do Modo de exibição de árvore, selecione **+ Nova tela**.
 
 1. Selecione **Cabeçalho e rodapé**.
 
 1. Renomeie a tela como `DetailScreen`.
-
 
 ### Tarefa 1.3 — Adicionar a navegação
 
@@ -91,14 +89,17 @@ Neste laboratório, você usará formulários para criar e editar registros em u
     Back()
     ```
 
+1. Renomeie o ícone como `BackIconEdit`.
+
 1. No **modo de exibição de árvore**, selecione o ícone e os Comandos (**…**) e escolha **Copiar**.
 
 1. Expanda **DetailScreen**.
 
 1. Expanda **ScreenContainer**.
 
-1. Selecione **HeaderContainer** e os Comandos (**…**) e escolha **Colar**.
+1. Selecione **HeaderContainer**, os Comandos (**...**) e **Colar** e **Colar**.
 
+1. Renomeie o ícone como `BackIconDetail`.
 
 ## Exercício 2 — Tela Detalhes
 
@@ -122,7 +123,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Nas propriedades do FormViewer, selecione **Solicitações de Reserva** em **Fonte de dados**.
 
-1. Clique em **8 selecionados** ao lado de **Campos**.
+1. Clique em **10 selecionados** ao lado de **Campos**.
 
     ![Captura de tela dos campos de formulário padrão.](../media/add-fields-default.png)
 
@@ -212,7 +213,7 @@ Neste laboratório, você usará formulários para criar e editar registros em u
 
 1. Nas propriedades do formulário, selecione **Solicitações de Reserva** em **Fonte de dados**.
 
-1. Clique em **8 selecionados** ao lado de **Campos**.
+1. Clique em **9 selecionados** ao lado de **Campos**.
 
 1. Adicione ou remova os campos para que eles sejam organizados na seguinte ordem:
 
