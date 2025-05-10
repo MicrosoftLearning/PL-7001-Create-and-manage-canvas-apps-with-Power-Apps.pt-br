@@ -49,14 +49,13 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Se a caixa de diálogo pop-up **Comece a projetar seu site** for exibida, feche-a.
 
-
 ### Tarefa 1.2 Criar uma lista do SharePoint
 
 1. No site do SharePoint, selecione **+ Novo** e escolha **Lista**.
 
     ![Captura de tela da nova lista do SharePoint.](../media/new-sharepoint-list.png)
 
-1. Selecione **Lista em branco**
+1. Selecione **Lista** em **Criar do zero**.
 
 1. Insira `Bookings` em **Nome** e escolha **Criar**.
 
@@ -98,7 +97,6 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 
 1. Copie a primeira parte da URL do site do SharePoint, por exemplo, `https://m365x99999999.sharepoint.com/sites/Petboarding/`
 
-
 ## Exercício 2 – Adicionar lista do SharePoint ao aplicativo de tela
 
 ### Tarefa 2.1 — Editar o aplicativo
@@ -110,7 +108,6 @@ Neste laboratório, você adicionará uma fonte de dados externa.
 1. Selecione a guia **Aplicativos** no menu de navegação à esquerda.
 
 1. Escolha o **aplicativo Solicitação de Reserva**, selecione os Comandos (**…**) e escolha **Editar > Editar em uma nova guia**.
-
 
 ### Tarefa 2.2 – Adicionar o SharePoint como uma fonte de dados
 

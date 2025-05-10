@@ -36,24 +36,13 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Selecione a guia **+ Criar** no menu de navegação à esquerda.
 
-1. Selecione o bloco **Aplicativo em branco** em **Iniciar de**.
+1. Selecione o bloco **Começar com uma tela em branco** em **Criar seus aplicativos**.
 
-1. Selecione **Criar** no bloco **Aplicativo de tela em branco**.
+1. Selecione **Tamanho da tabela**.
 
-    ![Captura de tela da criação em branco.](../media/create-from-blank.png)
+1. Aguarde a criação do aplicativo em branco.
 
-1. Insira `Booking Request app` em **Nome do aplicativo**.
-
-1. Selecione **Tablet** em **Formato**.
-
-    ![Captura de tela do novo nome do aplicativo.](../media/app-name-format.png)
-
-1. Selecione **Criar**.
-
-1. Aguarde até que o aplicativo seja criado.
-
-1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
-
+1. Selecione **Salvar** no canto superior direito do Power Apps Studio, insira `Booking Request app` e selecione **Salvar**.
 
 ### Tarefa 1.2 – Adicionar fonte de dados
 
@@ -66,7 +55,6 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
     ![Captura de tela da fonte de dados selecionada.](../media/studio-data-search.png)
 
 1. Selecione a tabela **Solicitações de reserva** do Microsoft Dataverse.
-
 
 ### Tarefa 1.3 – Configurar a tela principal
 
@@ -118,7 +106,6 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
-
 ### Tarefa 1.4 – Adicionar uma galeria
 
 1. No menu de criação do aplicativo, selecione **Inserir (+)**.
@@ -137,6 +124,8 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Selecione **Custo** para **Corpo1**.
 
+   > **OBSERVAÇÃO:** os nomes de campo podem ser mostrados como nomes de esquema com um prefixo não relacionado ao nome de exibição.
+
 1. Selecione **Decisão** para **Subtítulo2**.
 
 1. Selecione **Nome do animal de estimação** para **Título2**.
@@ -149,13 +138,14 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 
 1. Renomeie a galeria como `BookingRequestList`.
 
+1. Se uma caixa de diálogo pop-up de sugestões for exibida, selecione **Cancelar**.
+
 1. Defina as propriedades da galeria na barra de fórmulas da seguinte maneira:
 
    1. X=`0`
    1. Y=`80`
    1. Altura=`575`
    1. Largura=`250`
-
 
 ### Tarefa 1.5 – Formatar o campo de moeda
 
@@ -176,4 +166,3 @@ Neste laboratório, você projetará e criará um aplicativo de tela em branco, 
 1. Selecione **Salvar** no canto superior direito do Power Apps Studio.
 
 1. Selecione o botão **<- Voltar** no canto superior esquerdo da barra de comandos e selecione **Sair** para sair do aplicativo.
-

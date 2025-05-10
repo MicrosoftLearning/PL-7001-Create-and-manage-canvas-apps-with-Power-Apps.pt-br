@@ -38,8 +38,22 @@ Neste exercício, você verificará se pode acessar o Power Apps.
 
 1. Opcionalmente, selecione **Sim** para permanecer conectado.
 
+1. Se solicitado a **Entrar no Microsoft Edge**, selecione **Não, obrigado**.
+
 1. Se forem solicitadas informações de contato, deixe o País/região como o valor padrão, insira `0123456789` como Número de telefone e selecione **Enviar**.
 
 1. No canto superior direito da tela, verifique se o **Ambiente** está definido como **Dev One**. É aqui que você vai trabalhar durante todo este laboratório. Se não estiver, selecione o ambiente **Dev One**.
 
     ![Seletor de ambiente.](../media/select-dev-one-environment.png)
+
+1. Feche o painel **Selecionar ambiente**.
+
+### Tarefa 1.2 — Atualizar navegador
+
+A aplicação das atualizações mais recentes ao navegador evita problemas no próximo laboratório ao criar aplicativos.
+
+1. Abra o navegador **Microsoft Edge**.
+
+1. Selecione os **Comandos (...)** no canto superior direito do navegador, selecione **Ajuda e comentários** e selecione **Sobre o Microsoft Edge**.
+
+1. Aplique as atualizações e reinicie o navegador, se necessário.
