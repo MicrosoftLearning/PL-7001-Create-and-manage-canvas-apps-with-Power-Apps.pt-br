@@ -29,7 +29,7 @@ Neste laboratório, você criará o projeto de um aplicativo de tela de uma font
 
 ### Tarefa 1.1 – Baixar a planilha do Excel
 
-1. Navegue até [CoffeeMachineData.xlsx](https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx).
+1. Em um navegador da Web, navegue até [CoffeeMachineData.xlsx](https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx) em `https://github.com/MicrosoftLearning/PL-7001-Create-and-manage-canvas-apps-with-Power-Apps/blob/master/Allfiles/Labs/CoffeeMachineData.xlsx`.
 
 1. Selecione o botão de arquivo **Raw** para baixar a pasta de trabalho do Excel.
 
